@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f4f9;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    table {
+      width: 70%;
+      border-collapse: collapse;
+
+      margin-top: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th,
+    td {
+      padding: 12px 16px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #00c6fd;
+    }
+
+    tbody tr:hover {
+      background-color: #e0f7fa;
+      cursor: pointer;
+    }
+
+    td {
+      font-weight: 500;
+    }
+    tr:nth-child(even) {
+      background-color: #d6eeee;
+    }
+  </style>
+  <body>
+    <header class="container">
+      <h3>Smile</h3>
+      <h3>Laugh</h3>
+      <h3>Wink</h3>
+      <h3>Shrug</h3>
+      <h3>Blush</h3>
+    </header>
+    <div>
+      <iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnita.bj.3&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+        width="340"
+        height="331"
+        style="border: none; overflow: hidden"
+        scrolling="no"
+        frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+      ></iframe>
+    </div>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Gender</th>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <td>100</td>
+            <td>Lionel Messi</td>
+            <td>Male</td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <td>101</td>
+            <td>Neymar</td>
+            <td>Male</td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <td>102</td>
+            <td>Wannda</td>
+            <td>Male</td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <td>1</td>
+            <td>Ronnado</td>
+            <td>Suiiiiii</td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">ID</th>
+            <th colspan="2">Memership</th>
+            <th rowspan="2">Balance</th>
+          </tr>
+          <tr>
+            <th style="background-color: lightgreen">Joined</th>
+            <th style="background-color: lightcoral">Cancelled</th>
+          </tr>
+          <tr>
+            <th style="background-color: lightblue">minea</th>
+            <th>427311</th>
+            <th>June 3,2010</th>
+            <th>n/a</th>
+            <th>0.00</th>
+          </tr>
+          <tr>
+            <th style="background-color: lightseagreen">haha xd</th>
+            <th>427312</th>
+            <th>June 3,2011</th>
+            <th>n/a</th>
+            <th>0.00</th>
+          </tr>
+          <th colspan="4">Total Balance</th>
+          <th>0.0</th>
+        </thead>
+      </table>
+    </div>
+  </body>
+</html>
